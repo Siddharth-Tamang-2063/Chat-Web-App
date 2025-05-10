@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 
 app.use(cors(
     {
-        origin:"http://localhost:5173",
+        origin:"https://chat-web-app-1-baqy.onrender.com",
         credentials:true
     }
 ))
